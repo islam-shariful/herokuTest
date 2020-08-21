@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.use("/", (req, res) => {
-  res.send("This is for heruko test");
+  res.send("This is for heroku test");
 });
 
 app.listen(3000);
