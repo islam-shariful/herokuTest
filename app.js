@@ -6,4 +6,4 @@ app.use("/", (req, res) => {
   res.send("This is for heroku test");
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
